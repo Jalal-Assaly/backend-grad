@@ -1,4 +1,4 @@
-# Backend-Grad
+# Graduation Project Backend System
 #### Collaborators: [Ahmed Salah Shalabi](https://github.com/AhmedShalabi01) and [Jalal Assaly](https://github.com/Jalal-Assaly)
 This repository contains the backend subsystem of the IoT physical access control system. Programmed using Java 17, Spring Boot, and MongoDB.
 
