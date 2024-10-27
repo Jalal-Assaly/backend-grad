@@ -10,7 +10,7 @@ This project is a complete IoT system composed of multiple subsystems and techno
 
 The system was tested, deployed and benchmarked to assess its performance against existing similar systems. Testing was conducted at various levels, such as unit testing (Mockito + AssertJ), integration testing and system testing. Deployment was realized on a Raspberry Pi 4 Model B (8GB RAM) using Docker containers and Portainer as the container orchestration tool. Finally, benchmarking was conducted using [Eclipse Californium's](https://github.com/eclipse-californium/californium.git) available tools.
 
-##[Demonstration Video](https://drive.google.com/file/d/1fbGVf5QVrfla25-C9wlf16yCCj4XdmEq/view?usp=sharing)
+## [Demonstration Video](https://drive.google.com/file/d/1fbGVf5QVrfla25-C9wlf16yCCj4XdmEq/view?usp=sharing)
 
 ## Backend System
 
