@@ -10,7 +10,8 @@ This project is a complete IoT system composed of multiple subsystems and techno
 
 The system was tested, deployed and benchmarked to assess its performance against existing similar systems. Testing was conducted at various levels, such as unit testing (Mockito + AssertJ), integration testing and system testing. Deployment was realized on a Raspberry Pi 4 Model B (8GB RAM) using Docker containers and Portainer as the container orchestration tool. Finally, benchmarking was conducted using [Eclipse Californium's](https://github.com/eclipse-californium/californium.git) available tools.
 
-## [Demonstration Video](https://drive.google.com/file/d/1fbGVf5QVrfla25-C9wlf16yCCj4XdmEq/view?usp=sharing)
+## Demonstration Video
+[Video](https://drive.google.com/file/d/1fbGVf5QVrfla25-C9wlf16yCCj4XdmEq/view?usp=sharing)
 
 ## Backend System
 
@@ -43,3 +44,18 @@ This microservice implements the core access control functionalities, including 
 
 ### [Admin Server API](https://github.com/Jalal-Assaly/admin-server-api)
 The Admin Server API provides administrative functionalities for managing and monitoring the backend system performance. Uses Codecentric's Spring Admin Server dependency based upon Spring Actuator to reveal information endpoints such as the system's health, metrics, http traces and more.
+
+## Mobile System
+
+### [Mobile Application](https://github.com/AhmedShalabi01/pacs-mobile-application)
+The Android mobile application manages user login and registration, stores digital keys securely, and transmits them to the access point unit via NFC technology for access control.
+
+## Embedded System
+
+### [Embedded System](https://github.com/Jalal-Assaly/pacs-embedded-client)
+The embedded system software serves the purposes of controlling an ESP32 microntroller and interfacing with the connected components (WIFI module, PN532 Reader, LCD 16x2, LEDs, Buzzer and Solenoid Key Lock). It reads the received digital key and forwards it to the backend system for digital key authentication.
+
+## Frontend System
+
+### [Frontend Admin Page](https://github.com/Jalal-Assaly/pacs-ui.git)
+The frontend admin page helps system administrators to monitor and control the physical access control system through an intuitive and user-friendly interface.
