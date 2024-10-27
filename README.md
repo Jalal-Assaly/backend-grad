@@ -1,14 +1,14 @@
 # Physical Access Control System Using Digital Keys
 #### Collaborators: [Jalal Assaly](https://github.com/Jalal-Assaly) and [Ahmed Salah Shalabi](https://github.com/AhmedShalabi01)
-This project was developed as part of my graduation project for the Faculty of Engineering, in the Computer Systems department at the October University for Modern Sciences and Arts. It consists of providing a complete physical access control solution to enhance the manageability and security of smart buildings, using mobile digital keys that act as authentication tokens to authorize and prevent access. 
+This project was developed as part of my graduation project for the Faculty of Engineering, in the Computer Systems department at the October University for Modern Sciences and Arts. It provides a comprehensive physical access control solution to enhance the security and manageability of smart buildings, utilizing mobile digital keys as authentication tokens to control access.. 
 
 This project consists of a complete IoT system composed of multiple subsystems and technologies:
 - **Backend System:** Developed using Java 17 and Spring Boot.
 - **Mobile Application:** Developed using Java 17 and Android Studio.
-- **Embedded System:** Developed using embedded C and ESP-IDF framework.
-- **Frontend System:** Developed using Typescript, HTML, CSS and Angular.
+- **Embedded System:** Developed using Embedded C, C++, Arduino IDE and ESP-IDF framework.
+- **Frontend System:** Developed using HTML, CSS, Typescript and Angular.
 
-### [Demonstration Video](https://drive.google.com/file/d/1fbGVf5QVrfla25-C9wlf16yCCj4XdmEq/view?usp=sharing)
+[Demonstration Video](https://drive.google.com/file/d/1fbGVf5QVrfla25-C9wlf16yCCj4XdmEq/view?usp=sharing)
 
 ## Backend System
 
