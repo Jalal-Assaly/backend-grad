@@ -1,12 +1,14 @@
 # Physical Access Control System Using Digital Keys
 #### Collaborators: [Jalal Assaly](https://github.com/Jalal-Assaly) and [Ahmed Salah Shalabi](https://github.com/AhmedShalabi01)
-This project was developed as part of my graduation project for the Faculty of Engineering, in the Computer Systems department at the October University for Modern Sciences and Arts. It provides a comprehensive physical access control solution to enhance the security and manageability of smart buildings, utilizing mobile digital keys as authentication tokens to control access.. 
+This project was developed as part of my graduation project for the Faculty of Engineering, in the Computer Systems department at MSA University. It provides a comprehensive physical access control solution to enhance the security and manageability of smart buildings, utilizing mobile digital keys as authentication tokens to control access.
 
 This project consists of a complete IoT system composed of multiple subsystems and technologies:
 - **Backend System:** Developed using Java 17 and Spring Boot.
 - **Mobile Application:** Developed using Java 17 and Android Studio.
 - **Embedded System:** Developed using Embedded C, C++, Arduino IDE and ESP-IDF framework.
 - **Frontend System:** Developed using HTML, CSS, Typescript and Angular.
+
+The system was tested, deployed and benchmarked to assess its performance against existing similar systems. Testing was conducted at various levels, such as unit testing (Mockito + AssertJ), integration testing and system testing. Deployment was realized on a Raspberry Pi 4 Model B (8GB RAM) using Docker containers and Portainer as the container orchestration tool. Finally, benchmarking was conducted using [Eclipse Californium's](https://github.com/eclipse-californium/californium.git) available tools.
 
 [Demonstration Video](https://drive.google.com/file/d/1fbGVf5QVrfla25-C9wlf16yCCj4XdmEq/view?usp=sharing)
 
